@@ -24,6 +24,7 @@
 		82141BA423611FAB00F688CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82141BA723611FAB00F688CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82141BA923611FAB00F688CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822652FE237F353C00079A01 /* CheckFonts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CheckFonts.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		82141B9A23611FAA00F688CB /* CheckFonts */ = {
 			isa = PBXGroup;
 			children = (
+				822652FE237F353C00079A01 /* CheckFonts.entitlements */,
 				82141B9B23611FAA00F688CB /* AppDelegate.swift */,
 				82141B9D23611FAA00F688CB /* SceneDelegate.swift */,
 				82141B9F23611FAA00F688CB /* ViewController.swift */,
@@ -284,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CheckFonts/CheckFonts.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 43RPG97GKY;
 				INFOPLIST_FILE = CheckFonts/Info.plist;
@@ -302,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CheckFonts/CheckFonts.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 43RPG97GKY;
 				INFOPLIST_FILE = CheckFonts/Info.plist;
